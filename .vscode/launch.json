@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Cortex debug",
+      "cwd": "${workspaceRoot}",
+      "executable": "./bin/out.elf",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "openocd",
+      "device": "STM32F103RBT6",
+      "configFiles": [
+        "./flash.cfg"
+      ],
+      "svdFile": "./STM32F103.svd",
+      "showDevDebugOutput": true,
+      "preLaunchTask": "Build project"
+    }
+  ]
+}

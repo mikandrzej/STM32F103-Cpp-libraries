@@ -1,0 +1,383 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Dec 11 15:20:23 2021
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 67)
+COMPILE_FLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) -T$(LDSCRIPT) $(OPTIMALIZATION) $(LIBS) -g -Wall -fdata-sections -ffunction-sections --specs=nosys.specs -Wl,-Map=$(OUT_FILE).map,--cref -fno-threadsafe-statics -fno-common -fno-exceptions -fno-rtti -fno-builtin -fno-use-cxa-atexit -std=gnu++14 -ggdb3
+# environment
+USERPROFILE = C:\Users\Mike
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\Mike\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bad51b58-8eff-4bad-a0be-86a6ac7f73bf-sock
+# environment
+VSCODE_CWD = E:\Projects\cpp\f103_lcd_driver
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from 'Makefile', line 60)
+LIBS = -lc -lm 
+# makefile (from 'Makefile', line 39)
+C_INCLUDES = -I$(SOURCE_PATH) -I$(SOURCE_PATH)/system -I$(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Inc -I$(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I$(HAL_DRIVER_PATH)/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I$(HAL_DRIVER_PATH)/Drivers/CMSIS/Include 
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# makefile (from 'Makefile',  
+line 34)
+CPP_SOURCES = $(SOURCE_PATH)/system/stm32f1xx_hal_msp.cpp $(SOURCE_PATH)/system/interrupts.cpp $(SOURCE_PATH)/main.cpp
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# makefile (from 'Makefile', line 62)
+C_DEFS = -DSTM32F103xB
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29712_NQTSYRZPANNNICOW
+# makefile (from 'Makefile', line 11)
+SOURCE_PATH = src
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Mike\AppData\Roaming\Code\CachedData\ccbaa2d27e38e5afa3e5c21c1c7bef4657064247
+# environment
+LANG = C
+# environment
+OMP_NUM_THREADS = 16
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\Mike\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\Mike\OneDrive
+# makefile
+CURDIR := e:/Projects/cpp/f103_lcd_driver
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 58)
+LDSCRIPT = STM32F103RBTX_FLASH.ld
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# makefile (from 'Makefile', line 5)
+OUT_FILE_ELF = $(OUT_FILE).elf
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 29712
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 4)
+OUT_FILE_HEX = $(OUT_FILE).hex
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# makefile (from 'Makefile', line 65)
+OPTIMALIZATION = -Og
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pl","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 8)
+HAL_DRIVER_PATH = C:/Users/Mike/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.4
+# environment
+ONEDRIVECONSUMER = C:\Users\Mike\OneDrive
+# default
+MAKE_HOST := Windows32
+# makefile (from 'Makefile', line 50)
+COMPILER = arm-none-eabi-c++.exe
+# environment
+PROGRAMDATA = C:\ProgramData
+# makefile (from 'Makefile', line 6)
+OUT_FILE_BIN = $(OUT_FILE).bin
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\Mike
+# environment
+PLATFORMIO_CALLER = vscode
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\PuTTY\;C:\xpack-openocd-0.11.0-2\bin;C:\Users\Mike\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Mike\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\Mike\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DESKTOP-VOL05GC
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132819134010780543
+# environment
+VXIPNPPATH64 = C:\Program Files\IVI Foundation\VISA\
+# environment
+LOGONSERVER = \\DESKTOP-VOL05GC
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = Mike
+# makefile (from 'Makefile', line 56)
+SIZE = arm-none-eabi-size
+# makefile (from 'Makefile', line 52)
+CPU = -mcpu=cortex-m3
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# env 
+ironment
+USERDOMAIN = DESKTOP-VOL05GC
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+PLATFORMIO_PATH = C:\Users\Mike\.platformio\penv\Scripts;C:\Users\Mike\.platformio\penv;C:\Users\Mike\.platformio\python3;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\PuTTY\;C:\xpack-openocd-0.11.0-2\bin;C:\Users\Mike\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Mike\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\Mike\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\PuTTY\;C:\xpack-openocd-0.11.0-2\bin;C:\Users\Mike\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Mike\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\Mike\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-VOL05GC
+# makefile (from 'Makefile', line 53)
+MCU = $(CPU) -mthumb
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+PUBLIC = C:\Users\Public
+# environment
+MOZ_PLUGIN_PATH = C:\Program Files (x86)\Foxit Software\Foxit PDF Reader\plugins\
+# makefile (from 'Makefile', line 2)
+OUT_FILE = $(OUT_PATH)/out
+# environment
+APPDATA = C:\Users\Mike\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+PLATFORMIO_IDE = 2.4.0
+# environment
+VXIPNPPATH = C:\Program Files (x86)\IVI Foundation\VISA\
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'Makefile', line 1)
+OUT_PATH = bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\Mike\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\7ce818e2191f967bf5ed124cf88628ff-1.62.3-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 13)
+C_SOURCES = $(SOURCE_PATH)/system/system.c $(SOURCE_PATH)/system/system_stm32f1xx.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c 
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+XDG_CACHE_HOME = C:\Users\Mike\.cache
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 47)
+ASM_SOURCES = $(HAL_DRIVER_PATH)/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/gcc/startup_stm32f103xb.s
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 9e0d
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+# variable set hash-table stats:
+# Load=126/1024=12%, Rehash=0, Collisions=14/158=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (ke 
+y e:/Projects/cpp/f103_lcd_driver, mtime 1638874331): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-11 15:20:09
+#  File has been updated.
+#  Successfully updated.
+
+size:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	${SIZE} $(OUT_FILE_ELF)
+
+mkdir_out:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := mkdir_out
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
+#  recipe to execute (from 'Makefile', line 84):
+	if not exist "$(OUT_PATH)" mkdir "$(OUT_PATH)"
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 78):
+	rd /s /q "$(OUT_PATH)"
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build size
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+build: mkdir_out
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-07 00:09:54
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  recipe to execute (from 'Makefile', line 75):
+	${COMPILER} ${CPP_SOURCES} ${C_SOURCES} ${ASM_SOURCES} $(COMPILE_FLAGS) -o $(OUT_FILE_ELF)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search  
+has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=3/26=12%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 18 / storage = 143 B / avg = 7 B
+# current buf: size = 8174 B / used = 143 B / count = 18 / avg = 7 B
+
+# strcache performance: lookups = 33 / hit rate = 45%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=0/33=0%
+# Finished Make data base on Sat Dec 11 15:20:23 2021
+
+ 

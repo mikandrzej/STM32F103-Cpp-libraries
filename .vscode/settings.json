@@ -1,0 +1,34 @@
+{
+  "files.associations": {
+    "stm32f1xx_hal_def.h": "c",
+    "stddef.h": "c",
+    "stm32f1xx.h": "c",
+    "stm32_hal_legacy.h": "c",
+    "stm32f1xx_hal_conf.h": "c",
+    "stm32f1xx_hal_uart.h": "c",
+    "exception": "cpp",
+    "string": "cpp"
+  },
+  "cortex-debug.armToolchainPath": "C:\\PROGRAM FILES (X86)\\GNU ARM EMBEDDED TOOLCHAIN\\10 2021.10\\BIN",
+  "cortex-debug.openocdPath": "C:\\xpack-openocd-0.11.0-2\\bin\\OPENOCD.EXE",
+  "stm32-for-vscode.openOCDPath": "C:\\xpack-openocd-0.11.0-2\\bin\\OPENOCD.EXE",
+  "stm32-for-vscode.armToolchainPath": "C:\\PROGRAM FILES (X86)\\GNU ARM EMBEDDED TOOLCHAIN\\10 2021.10\\BIN",
+  "C_Cpp_Runner.warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic"
+  ],
+  "C_Cpp_Runner.compilerArgs": [],
+  "C_Cpp_Runner.includePaths": [
+    "C:/Users/Mike/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.4/Drivers/STM32F1xx_HAL_Driver/Inc",
+    "C:/Users/Mike/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.4/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+    "C:/Users/Mike/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.4/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+    "C:/Users/Mike/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.4/Drivers/CMSIS/Include"
+  ],
+  "C_Cpp_Runner.linkerArgs": [],
+  "C_Cpp_Runner.cStandard": "",
+  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.excludeSearch": [],
+  "C_Cpp_Runner.enableWarnings": true,
+  "C_Cpp_Runner.warningsAsError": false
+}
