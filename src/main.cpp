@@ -1,28 +1,48 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-#include "Drivers/UartSTM32.hpp"
+#include "Drivers/UartSTM32HAL.hpp"
 #include "stm32f1xx_hal.h"
+
+#include "Libraries/ProducerConsumer.hpp"
 
 void SystemClock_Config(void);
 void Error_Handler(void);
+
+// EgUartSTM32 uart(EG_UART1);
+EgUartSTM32HAL uart2(EG_UART2);
+
+
+void RecvCallbackUart2a(ReceiveCallbackArgs_s arg)
+{
+    uart2.Transmit(arg.buf, arg.len);
+}
+void RecvCallbackUart2b(ReceiveCallbackArgs_s arg)
+{
+    uart2.Transmit(arg.buf, arg.len);
+}
+void RecvCallbackUart2c(ReceiveCallbackArgs_s arg)
+{
+    uart2.Transmit(arg.buf, arg.len);
+}
 
 int main(void)
 {
     HAL_Init();
     SystemClock_Config();
 
-    EgUartSTM32 uart(EG_UART1);
-    EgUartSTM32 uart2(EG_UART2);
-    EgUartBase *eguart1 = &uart;
     EgUartBase *eguart2 = &uart2;
-    eguart1->Init(115200);
     eguart2->Init(115200);
+
+    eguart2->RegisterReceiveCallback(RecvCallbackUart2a);
+    eguart2->RegisterReceiveCallback(RecvCallbackUart2b);
+    eguart2->RegisterReceiveCallback(RecvCallbackUart2c);
 
     while (true)
     {
-        eguart1->Transmit("abc\r\n", 5);
-        eguart2->Transmit("def\r\n", 5);
+
+        // eguart1->Transmit("abc\r\n", 5);
+        // eguart2->Transmit("def\r\n", 5);
     }
 
     return 0;
@@ -64,6 +84,7 @@ void SystemClock_Config(void)
         Error_Handler();
     }
 }
+
 /**
   * @brief  This function is executed in case of error occurrence.
   * @retval None

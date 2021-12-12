@@ -5,8 +5,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Sat Dec 11 15:20:23 2021
+# Make data base, printed on Sun Dec 12 14:26:49 2021
 
 # Variables
 
@@ -14,11 +15,12 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 SYSTEMDRIVE = C:
 # environment
 LC_ALL = C
-# makefile (from 'Makefile', line 67)
+# makefile (from 'Makefile', line 68)
 COMPILE_FLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) -T$(LDSCRIPT) $(OPTIMALIZATION) $(LIBS) -g -Wall -fdata-sections -ffunction-sections --specs=nosys.specs -Wl,-Map=$(OUT_FILE).map,--cref -fno-threadsafe-statics -fno-common -fno-exceptions -fno-rtti -fno-builtin -fno-use-cxa-atexit -std=gnu++14 -ggdb3
 # environment
 USERPROFILE = C:\Users\Mike
-# environment
+# enviro 
+nment
 VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\Mike\AppData\Local
@@ -30,9 +32,9 @@ VSCODE_CWD = E:\Projects\cpp\f103_lcd_driver
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
 SYSTEMROOT = C:\WINDOWS
-# makefile (from 'Makefile', line 60)
+# makefile (from 'Makefile', line 61)
 LIBS = -lc -lm 
-# makefile (from 'Makefile', line 39)
+# makefile (from 'Makefile', line 40)
 C_INCLUDES = -I$(SOURCE_PATH) -I$(SOURCE_PATH)/system -I$(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Inc -I$(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I$(HAL_DRIVER_PATH)/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I$(HAL_DRIVER_PATH)/Drivers/CMSIS/Include 
 # environment
 PROCESSOR_LEVEL = 6
@@ -40,12 +42,11 @@ PROCESSOR_LEVEL = 6
 PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
-# makefile (from 'Makefile',  
-line 34)
-CPP_SOURCES = $(SOURCE_PATH)/system/stm32f1xx_hal_msp.cpp $(SOURCE_PATH)/system/interrupts.cpp $(SOURCE_PATH)/main.cpp
+# makefile (from 'Makefile', line 34)
+CPP_SOURCES = $(SOURCE_PATH)/system/stm32f1xx_hal_msp.cpp $(SOURCE_PATH)/system/interrupts.cpp $(SOURCE_PATH)/main.cpp $(SOURCE_PATH)/Drivers/UartSTM32HAL.cpp
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
-# makefile (from 'Makefile', line 62)
+# makefile (from 'Makefile', line 63)
 C_DEFS = -DSTM32F103xB
 # environment
 CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29712_NQTSYRZPANNNICOW
@@ -87,7 +88,7 @@ CURDIR := e:/Projects/cpp/f103_lcd_driver
 VSCODE_PIPE_LOGGING = true
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# makefile (from 'Makefile', line 58)
+# makefile (from 'Makefile', line 59)
 LDSCRIPT = STM32F103RBTX_FLASH.ld
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
@@ -119,7 +120,7 @@ VSCODE_PID = 29712
 OUT_FILE_HEX = $(OUT_FILE).hex
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
-# makefile (from 'Makefile', line 65)
+# makefile (from 'Makefile', line 66)
 OPTIMALIZATION = -Og
 # environment
 VSCODE_NLS_CONFIG = {"locale":"pl","availableLanguages":{},"_languagePackSupport":true}
@@ -129,10 +130,11 @@ HAL_DRIVER_PATH = C:/Users/Mike/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.4
 ONEDRIVECONSUMER = C:\Users\Mike\OneDrive
 # default
 MAKE_HOST := Windows32
-# makefile (from 'Makefile', line 50)
+# makefile (from 'Makefile', line 51)
 COMPILER = arm-none-eabi-c++.exe
 # environment
-PROGRAMDATA = C:\ProgramData
+PROGRAMDATA = C:\Progra 
+mData
 # makefile (from 'Makefile', line 6)
 OUT_FILE_BIN = $(OUT_FILE).bin
 # default
@@ -175,9 +177,9 @@ LOGONSERVER = \\DESKTOP-VOL05GC
 VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = Mike
-# makefile (from 'Makefile', line 56)
+# makefile (from 'Makefile', line 57)
 SIZE = arm-none-eabi-size
-# makefile (from 'Makefile', line 52)
+# makefile (from 'Makefile', line 53)
 CPU = -mcpu=cortex-m3
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
@@ -193,8 +195,7 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 +F = $(notdir $+)
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# env 
-ironment
+# environment
 USERDOMAIN = DESKTOP-VOL05GC
 # 'override' directive
 GNUMAKEFLAGS := 
@@ -210,7 +211,7 @@ MAKE_VERSION := 4.3
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-VOL05GC
-# makefile (from 'Makefile', line 53)
+# makefile (from 'Makefile', line 54)
 MCU = $(CPU) -mthumb
 # environment
 NUMBER_OF_PROCESSORS = 16
@@ -247,7 +248,8 @@ VSCODE_IPC_HOOK = \\.\pipe\7ce818e2191f967bf5ed124cf88628ff-1.62.3-main-sock
 # automatic
 <F = $(notdir $<)
 # makefile (from 'Makefile', line 13)
-C_SOURCES = $(SOURCE_PATH)/system/system.c $(SOURCE_PATH)/system/system_stm32f1xx.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c 
+C_SOURCES = $(SOURCE_PATH)/system/system.c $(SOURCE_PATH)/system/system_stm32f1xx.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c $(HAL_DRIVER_PATH)/Drivers/STM 
+32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c 
 # default
 SUFFIXES := 
 # environment
@@ -256,7 +258,7 @@ ALLUSERSPROFILE = C:\ProgramData
 XDG_CACHE_HOME = C:\Users\Mike\.cache
 # environment
 SESSIONNAME = Console
-# makefile (from 'Makefile', line 47)
+# makefile (from 'Makefile', line 48)
 ASM_SOURCES = $(HAL_DRIVER_PATH)/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/gcc/startup_stm32f103xb.s
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
@@ -273,8 +275,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
 
 # Directories
 
-# . (ke 
-y e:/Projects/cpp/f103_lcd_driver, mtime 1638874331): 12 files, no impossibilities.
+# . (key e:/Projects/cpp/f103_lcd_driver, mtime 1638874331): 12 files, no impossibilities.
 
 # 12 files, no impossibilities in 1 directories.
 
@@ -287,7 +288,7 @@ y e:/Projects/cpp/f103_lcd_driver, mtime 1638874331): 12 files, no impossibiliti
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-12-11 15:20:09
+#  Last modified 2021-12-12 14:26:42
 #  File has been updated.
 #  Successfully updated.
 
@@ -295,7 +296,7 @@ size:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 81):
+#  recipe to execute (from 'Makefile', line 82):
 	${SIZE} $(OUT_FILE_ELF)
 
 mkdir_out:
@@ -322,14 +323,14 @@ mkdir_out:
 # | := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/13=8%
-#  recipe to execute (from 'Makefile', line 84):
+#  recipe to execute (from 'Makefile', line 85):
 	if not exist "$(OUT_PATH)" mkdir "$(OUT_PATH)"
 
 clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 78):
+#  recipe to execute (from 'Makefile', line 79):
 	rd /s /q "$(OUT_PATH)"
 
 # Not a target:
@@ -354,13 +355,12 @@ build: mkdir_out
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/5=0%
-#  recipe to execute (from 'Makefile', line 75):
+#  recipe to execute (from 'Makefile', line 76):
 	${COMPILER} ${CPP_SOURCES} ${C_SOURCES} ${ASM_SOURCES} $(COMPILE_FLAGS) -o $(OUT_FILE_ELF)
 
 # Not a target:
 .SUFFIXES:
-#  Implicit rule search  
-has not been done.
+#  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -377,7 +377,8 @@ has not been done.
 
 # strcache performance: lookups = 33 / hit rate = 45%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Sat Dec 11 15:20:23 2021
+# 
+ Load=18/8192=0%, Rehash=0, Collisions=0/33=0%
+# Finished Make data base on Sun Dec 12 14:26:49 2021
 
  

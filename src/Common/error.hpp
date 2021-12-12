@@ -6,6 +6,7 @@
 #define ERR_OK 0x00
 #define ERR_HAL 0x01
 #define ERR_GENERAL 0x02
+#define ERR_NOT_IMPLEMENTED 0x02
 
 #define ERR_EGUART_GROUP 0x01u
 

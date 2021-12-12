@@ -34,7 +34,8 @@ $(HAL_DRIVER_PATH)/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c \
 CPP_SOURCES =  \
 $(SOURCE_PATH)/system/stm32f1xx_hal_msp.cpp \
 $(SOURCE_PATH)/system/interrupts.cpp \
-$(SOURCE_PATH)/main.cpp
+$(SOURCE_PATH)/main.cpp \
+$(SOURCE_PATH)/Drivers/UartSTM32HAL.cpp
 
 C_INCLUDES =  \
 -I$(SOURCE_PATH) \
